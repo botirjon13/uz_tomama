@@ -42,6 +42,29 @@ body{
 
   animation:fadeIn 2.5s ease;
 }
+  .product-image{
+  position:relative;
+  z-index:2;
+}
+
+.badge-new{
+  position:absolute;
+  top:15px;
+  left:15px;
+  z-index:10;
+}
+
+.product img{
+  position:relative;
+  z-index:1;
+  filter:drop-shadow(0 0 40px rgba(201,162,77,.6));
+  animation:float 4s ease-in-out infinite;
+}
+
+.product-image img{
+  transform:translateZ(0);
+}
+
 
 .hero h1{
   font-family:'Playfair Display',serif;
